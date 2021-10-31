@@ -11,7 +11,7 @@ By this move, you won't be able to instance the class outside the class, so the 
 To don't create a second instance any time you call the class, you must check if a first instance already exists. If it does, then you return it. If it doesn't, then you create the first instance and return it.
 
 
-```js
+```ts
 class Singleton {
 	private static instance: Singleton
 
